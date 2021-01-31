@@ -1,0 +1,49 @@
+header { 
+  width:100%; 
+  position: fixed; 
+  top: 0%; 
+  left: 0%; 
+  margin-top: 0px; 
+  margin-left: 0px; 
+  z-index: 3;
+}
+
+
+
+#mynav {
+background: #ffffffff;
+box-shadow: 0px 0px 6px 0px #E1E0DD;
+
+}	
+#mynava {
+height: 55px;
+}
+
+/*
+.backimg{
+  position:absolute;
+  clip:rect(0 140px 140px 0);
+*/
+.back {
+margin-top: 55px; 
+height: 900px;
+z-index: 1;
+background: url(../src/4.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.backa {
+z-index: 0;
+background: url(../src/two.png);
+}
+
+ #end {
+ margin-top: 5rem; 
+ height: 2.5em; 
+ padding-top:1rem;
+ background-color: black; 
+ color:#ffffff;
+  text-align: center;
+ }
+ 
+

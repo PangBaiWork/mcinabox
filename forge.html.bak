@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+</script>
+<title>Forge下载</title>
+<link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="wth=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<!-- 引入 Bootstrap -->
+<!--避免乱码-->
+<meta charset="utf-8">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+
+<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) ，去你妹的jquery-->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- 包括所有已编译的插件 -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<header>
+<nav class="navbar-default" role="navigation">
+<div class="container-fluid"> 
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse"
+data-target="#example-navbar-collapse">
+
+<span class="sr-only">MCinaBox</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">MCinaBox</a>
+</div>
+<div class="collapse navbar-collapse" id="example-navbar-collapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="index.html">首页</a></li>
+<li><a href="download.html">BOX下载</a></li>
+<li><a href="forge.html">Forge下载</a></li>
+<li><a href="about.html">关于我们</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<body onload="jz( )" id="gouzi">
+
+
+
+
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="alert alert-success alert-dismissable">
+				 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+				<h4>
+					注意!
+				</h4> 为使用forge方便，这里准备一些版本的forge，如有需要请前往forge官网下载其他版本forge<strong> (下载universal而不是installer)</strong><br/><a href="https://files.minecraftforge.net/" class="alert-link">前往forge官网</a>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							游戏版本
+						</th>
+						<th>
+							Forge
+						</th>
+						<th>
+							
+						</th>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<tr  class="success">
+						<td>
+							1.12.2
+						</td>
+						<td>
+							14.23.5.2852
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/ieTQVh31pvc">下载<a>
+						</td>
+						
+					</tr>
+					<tr>
+						<td>
+							1.12.1
+						</td>
+						<td>
+				             14.22.1.2484
+						</td>
+						<td>
+						<a href="https://wwa.lanzous.com/tp/iv65ih31psj">下载<a>
+						</td>
+						
+					</tr>
+					<tr class="error">
+						<td>
+							1.11.2
+						</td>
+						<td>
+						13.20.1.2579
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/ii6Mth31pof">下载<a>
+						</td>
+						
+					</tr>
+					<tr>
+						<td>
+							1.10
+						</td>
+						<td>
+							12.18.0.1999
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/inZQFh31pne">下载<a>
+						</td>
+				
+					</tr>
+					<tr>
+						<td>
+							1.9.4
+						</td>
+						<td>
+							12.17.0.1976
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/iE9vbh31pkb">下载<a>
+						</td>
+				<tr class="warning">
+						<td>
+							1.8.9
+						</td>
+						<td>
+							11.15.1.1722
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/i1EaVh31pja">下载<a>
+						</td>
+					</tr>
+					<tr  class="success">
+						<td>
+							1.7.10
+						</td>
+						<td>
+							10.13.4.1558
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/isMHyh31pgh">下载<a>
+						</td>
+							<tr>
+						<td>
+							1.6.4
+						</td>
+						<td>
+							9.11.1.1345
+						</td>
+						<td>
+							<a href="https://wwa.lanzous.com/tp/iD6MSh31s5e">下载<a>
+						</td>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+
+<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="alert alert-warning alert-dismissable">
+				 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+				<h4>
+					注意!
+				</h4> 请把下载的Forge文件移动到手机目录Android/data/com.aof.mcinabox/files/MCinaBox/forge下 <br/>使用本地安装器安装
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="end">
+CopyRight©2020 Aof&PangBai AllRightsReserved.
+</div>
+</body>
+<style>
+body {
+margin-top: 100px; 
+}
+
+div {
+word-wrap:break-word
+}
+</style>
+<script src="js/main.js"></script>
+<!--樱花特效在线引入-->
+<script src="js/yinghua.js"></script>
+
+</html>
