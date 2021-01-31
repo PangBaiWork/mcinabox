@@ -1,0 +1,359 @@
+	*{
+  padding: 0;
+  margin: 0;
+  
+}
+#three {
+margin-top:100px
+
+}
+
+
+
+@-webkit-keyframes changeright{       
+		 
+				0%{-webkit-transform:rotate(0deg);}
+		 
+				50%{-webkit-transform:rotate(180deg);}
+		 
+				100%{-webkit-transform:rotate(360deg);}
+			}
+
+ 
+.icon{
+    -webkit-animation:changeright 0.7s linear infinite;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	 /*开始动画后无限循环，用来控制rotate*/
+}
+
+
+#done {
+margin-top: 65px;
+}
+
+ body {
+  position: relative;
+  word-wrap:break-word;
+  zoom: 0.9;
+-moz-transform: scale(0.8);
+-moz-transform-origin: 0 0;
+}
+
+/*字体文件*/
+@font-face {
+  font-family: minecraft;
+  src: url('fonts/MINECRAFT.woff');
+}
+
+/*导航栏*/
+header { 
+  width:100%; 
+  position: fixed; 
+  top: 0%; 
+  left: 0%; 
+  margin-top: 0px; 
+  margin-left: 0px; 
+  z-index: 3;
+}
+
+
+
+.navbar-toggle {
+  /*去掉响应式导航栏该死的边框*/
+  border:none;
+}
+/*section1*/
+.one {
+  margin-top: 50px;
+  height:70rem;
+  position: relative;
+  width: -1;
+}
+
+/*第一张背景*/
+.background-img img {
+  display: none;
+}
+.background-img {
+  width: 100%;
+  height: auto;
+}
+.background-img {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #353031;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 50% 50% !important;
+  background-repeat: repeat;
+      background-size: cover !important;
+      height: 100%;
+      left: 0;
+
+      top: 0;
+      width: 100%;
+      z-index: 0;
+    }
+    .block-event,
+    .block-img .background-img,
+    .block-img a:before,
+    .block-registry,
+    .registry-form input[type="text"],
+    .registry-form select,
+    .registry-form .submit {
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+    }
+
+
+    /*标题垂直居中*/
+    #wrapper {
+      display: table;
+    }
+
+    #cell {
+      display: table-cell;
+      vertical-align: middle;
+
+    }
+    #bibg {
+      margin-left : 2.5rem;
+    
+  color:#ffffff;
+
+      
+    }
+    #zi {
+    font-size : 2rem;
+    }
+    /*
+    h1 {
+      margin-bottom ：5px
+      padding-bottom:5px
+
+    }
+
+    h3 {
+
+      margin-top : 5px
+      padding-top :5px
+
+    }
+    */
+    /*这里是面板section two*/
+    .two {
+      margin-top: 5rem; 
+      height: 46rem;
+      
+    }
+
+    .yellow {
+
+      width: 46rem;
+      height: 46rem;
+      background: #F8C640;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      z-index: 0;
+      margin-left: -23rem; 
+      margin-bottom: 0rem; 
+      position: absolute;
+      background: -webkit-linear-gradient(right,#FED660,#F1B219);
+      background: -o-linear-gradient(right,#FED660,#F1B219);
+      background: -moz-linear-gradient(right,#FED660,#F1B219);
+      background: -mos-linear-gradient(right,#FED660,#F1B219);
+      background: linear-gradient(right,#FED660,#F1B219);
+pointer-events:none ;
+border-radius: 10px;
+
+    }
+
+
+
+    /*搞了两个多小时的绝对居中，去死吧css*/
+    #red {
+      width: 16rem;
+      height: 16rem;
+      background: -webkit-linear-gradient(#47B2DE,#22F0F3);
+      background: -o-linear-gradient(#47B2DE,#22F0F3);
+      background: -moz-linear-gradient(#47B2DE,#22F0F3);
+      background: -mos-linear-gradient(#47B2DE,#22F0F3);
+      background: linear-gradient(#47B2DE,#22F0F3);
+      
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      border-radius: 10px;
+      z-index: 0;
+      /*最垃圾的css*/
+      margin-left: 15rem;
+      margin-bottom: -11rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+pointer-events:none ;
+
+    }
+    #jieshao {
+    
+    
+    
+    }
+
+    /*对菱形中的文字居中*/
+    .wonder {
+
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      /* line-height: 20rem;*/
+      margin-left: 1rem;
+      margin-top: 2rem; 
+
+      z-index: 0;
+      font-size:2rem
+    }
+
+
+
+#down {
+position: absolute; 
+z-index: 1;
+margin-left:13rem;
+margin: auto;
+ margin-top: 21rem;
+  left: 0; 
+  right: 0;
+  }
+
+
+
+    /*download*/
+    .download {
+     border-radius: 90px;
+      background: #ffffff;
+      padding: 1.5rem; 
+     
+ /*    text-decoration:none
+
+      /box-shadow:-10px 0 10px red
+      box-shadow: darkgrey 0px 0px 0.1rem 5px;
+       box-shadow:0 3px 10px 1px #FED660;
+     z-index:;*/
+
+
+    }
+
+
+
+    /*修复轮播图不能切换，该死的轮播图，
+    csdn的大佬说明框架轮播图片覆盖层次大于按钮，*/
+/*   a {
+      z-index:5;
+    }
+    */
+
+
+
+    .three {
+      margin-top: 20rem; 
+      
+    }
+
+
+
+
+    /*定义轮播图水平线*/
+    .line {
+      margin-top:0px;
+      margin-bottom: 0px;
+    }
+    div p {
+      margin-bottom: 0px;
+    }
+    
+    /*下载页面*/
+    @keyframes tu{
+            from{
+                /*动画开始角度*/
+                transform: rotate(90deg);
+            }
+            to {
+                /*动画结束时角度*/
+                transform: rotate(45deg);
+            }
+    
+    
+ }
+ 
+ 
+ 
+ #knowa{
+ margin-top: 5rem; 
+ height: 36rem;
+ width: 36rem; 
+ text-align: center;
+ color: #ffffff;
+background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom left, #07EEF2 , #38B7DF);
+border-radius:1rem ;
+
+/*background: #F1B219;*/
+
+ }
+ 
+ #knowb{
+ margin-top: 5rem; 
+height: 36rem;
+ width: 36rem; 
+ text-align: center;
+ color: #ffffff;
+background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom left, #FEDA6E, #F1B420);
+border-radius:1rem ;
+
+ }
+ 
+ #knowc{
+ margin-top: 5rem; 
+ height: 36rem;
+ width: 36rem; 
+ text-align: center;
+ color: #ffffff;
+background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom left,#B07AEA , #8060CF);
+border-radius:1rem ;
+
+ }
+ 
+ #knowd{
+ margin-top: 5rem; 
+ height: 36rem;
+ width: 36rem; 
+
+ text-align: center;
+ color: #ffffff;
+background-color: red; /* 不支持线性的时候显示 */
+    background-image: linear-gradient(to bottom left, #3EF291 , #36B46A);
+border-radius:1rem ;
+
+ }
+ 
+ #end {
+ margin-top: 5rem; 
+ height: 2.5em; 
+ padding-top:1rem;
+ background-color: black; 
+ color:#ffffff;
+  text-align: center;
+ }
+ 
+ 
+ 
+ 
